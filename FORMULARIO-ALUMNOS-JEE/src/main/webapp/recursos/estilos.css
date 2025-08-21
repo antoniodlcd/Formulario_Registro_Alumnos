@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #394968, #be9145, #394968);
+    color: #394968;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 80px auto;
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.form-container h2 {
+    background-color: #be9145;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+    border-radius: 6px 6px 0 0;
+    margin: -30px -40px 0px -40px;
+}
+
+.obligatorio {
+    color: red;
+    font-weight: bold;
+}
+
+/*.logo {
+    position: fixed;
+    top: 5px;
+    left: 10px;
+    max-width: 100px;
+    height: auto;
+    z-index: 1000;
+    display: block;
+}*/
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input:focus,
+select:focus {
+    border-color: #be9145;
+    outline: none;
+}
+
+button[type="reset"],
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #394968;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #a47435;
+}
